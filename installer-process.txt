@@ -1,0 +1,34 @@
+Installation features
+==================
+
+1.	Simplified install process. Small artifacts – Make it simple. Divide and conquer the monolith.
+2.	Support for high availability and multi tenancy from install.
+3.	Upgrade should be smooth – Current install to new install and moving forward.
+4.	License validation should be logical and installation to happen as per the licensing. There is no point installing all components and make the ones that are available through license validation.
+5.	Using native packaging to make it easier – optional.
+6.	Prompt for updates to customer – patch provision, release upgrades, etc.
+7.	Running in containers – Individual components could be in containers. Thereby, simplifying the usage at a customer level.
+8.	Download according to licensing – Appropriate components have to be downloaded and installed.
+
+Installation Methods:
+
+1.	Online Installation
+2.	Offline installation
+3.	RPM/MSI native packaging
+
+
+Online Installation:
+1.	Mini installer.
+2.	License validation online.
+3.	Retrieve the list of licensed components.
+4.	Install them on local/remote machines.
+
+Offline Installation:
+1.	Download installable module on the machine so that they can be installed on current machine/remote machine.
+2.	Offline license validation.
+3.	Install them on local/remote machines – Improvements in automated installation.
+
+
+
+
+
